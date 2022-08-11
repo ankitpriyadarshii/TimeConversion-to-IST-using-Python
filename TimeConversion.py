@@ -3,9 +3,9 @@ hrs = int(input())
 print("Minutes: ", end="")
 mnt = int(input())
 print("\nSelect your choice: ")
-print("1. UTC\n2. UTC -4\n3. UTC +8\n4. GMT\n5. GMT +8\n")
+print("1. UTC\n2. UTC -4\n3. UTC +8\n4. GMT\n5. GMT +8")
 ch = int(input(""))
-print("IST time")
+print("\nIST time")
 if ch == 1:
     hrs = hrs+5
     mnt = mnt+30
