@@ -16,7 +16,7 @@ hrs = int(input())
 print("Minutes: ", end="")
 mnt = int(input())
 print("\nSelect your choice for mentioned time zone: ")
-print("1. UTC\n2. UTC -4\n3. UTC +8\n4. GMT\n5. GMT +8")
+print("1. UTC\n2. UTC -4\n3. UTC +8\n4. GMT\n5. GMT +8\n6. UTC -5")
 ch = int(input(""))
 print("\nIST time")
 if ch == 1:
@@ -41,6 +41,11 @@ elif ch == 4:
 
 elif ch == 5:
     hrs = hrs-3
+    mnt = mnt+30
+    HrsMntConvert(hrs, mnt)
+    
+elif ch == 6:
+    hrs = hrs+10
     mnt = mnt+30
     HrsMntConvert(hrs, mnt)
 
