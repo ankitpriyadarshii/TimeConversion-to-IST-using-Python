@@ -48,4 +48,3 @@ elif ch == 6:
     hrs = hrs+10
     mnt = mnt+30
     HrsMntConvert(hrs, mnt)
-
